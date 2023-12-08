@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Bears</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="index,follow" />
+  <meta name="description" content="Class Project" />
+
+  <link rel="stylesheet" href="./stylesheets/main.css" />
+</head>
+
+<body>
+  <div class="container-fluid m-0 p-0" id="main-body">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary container-fluid ps-3">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 p-2">
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="index.html"><strong>Home</strong></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="bears.html">Bears</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="horns.html">Horns</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="antlers.html">Antlers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="wolfs.html">Wovles and Coyotes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="Birds.html">Birds Et al</a>
+                </li>
+              </ul>
+        </div>
+    </nav>
+
+    <h1 class="display-1 ms-4 p-2">Bears </h1>
+    <h1 class="display-6 ms-4 p-2">Yellowstone and Grand Teton </h1>
+
+    <div class="container-fluid m-2" id="page2Cards">
+
+            <!-- Large Section Card on the left for large screens -->
+            <div class="col d-none d-md-block p-2">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">The American Black Bear is the most common bear in North America.  Black Bear is the most timid and least dangerous bears.  Not all black bear have black fur.  Their fur color can range from black to light brown.  The grizzly bear and brown bear are members of the same species of bear.  While most grizzlies live in Alaska and Northwestern Canada, they are also found in the lower 48 in Montana, Yellowstone, and Northern Utah.  The best identifier for a grizzly is the large hump on their shoulders, best seen while walking.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Large Section Card on top for small screens -->
+            <div class="col-12 d-md-none p-3">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">The American Black Bear is the most common bear in North America.  Black Bear is the most timid and least dangerous bears.  Not all black bear have black fur.  Their fur color can range from black to light brown.  The grizzly bear and brown bear are members of the same species of bear.  While most grizzlies live in Alaska and Northwestern Canada, they are also found in the lower 48 in Montana, Yellowstone, and Northern Utah.  The best identifier for a grizzly is the large hump on their shoulders, best seen while walking.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dynamically Generated Photo Cards (Max 1 per row on small screens, 2 per row on medium and larger screens) -->
+            <div class="col-12 col-md">
+                <div class="row row-cols-1 p-2" id="photo-cards-container" >
+                    <!-- Dynamically generated cards added here by JavaScript -->
+                </div>
+            </div>
+        </div>
+
+</div>
+  
+  <script type="module" src="./javascripts/main.js"></script>
+</body>
+
+</html>

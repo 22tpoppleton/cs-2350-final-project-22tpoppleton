@@ -1,0 +1,18 @@
+/* Your styles go here */
+@import url("bootstrap/dist/css/bootstrap.min.css");
+@import url("bootstrap-icons/font/bootstrap-icons.css");
+#main-body{
+    overflow: hidden;
+}
+.jumbotron{
+    height: 60vh;
+    background-position: 10% 70%;
+    background-image: url(/images/wolfs/12.jpg);
+}
+.footer{
+    padding-top: 4rem;
+}
+
+#homePagecards>card-body{
+    height: 400px;
+}
