@@ -18,6 +18,11 @@ const antlersPhotos = [
     {
         name: 'Elk',
         location: 'Yellowstone',
+        imageUrl: '/images/Antlers/28.jpg',
+    },
+    {
+        name: 'Elk',
+        location: 'Yellowstone',
         imageUrl: '/images/Antlers/7.jpg',
     },
     {
